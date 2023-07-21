@@ -13,7 +13,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="wide")
 
 #---logo
-img_logo = Image.open("images/masinsight3.png") 
+img_logo = Image.open("images/masinsight3.PNG") 
 
 
 with st.container():
