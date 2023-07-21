@@ -10,10 +10,10 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title="masinsight", page_icon="C:/Users/27823/MASINSIGHT/masapp/Images/Capture.PNG", layout="wide")
+st.set_page_config(page_title="masinsight", page_icon="githubimages/Capture.PNG", layout="wide")
 
 #---logo
-img_logo = Image.open("C:/Users/27823/MASINSIGHT/masapp/Images/masinsight_3.png") 
+img_logo = Image.open("githubimages/masinsight_3.png") 
 
 
 with st.container():
@@ -62,8 +62,8 @@ local_css("C:/Users/27823/MASINSIGHT/masapp/style/style.CSS")
 #---LOAD ASSETS---
 lottie_coding1 = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_xk0j3gld.json")
 
-img_dash_1 =Image.open("C:/Users/27823/MASINSIGHT/masapp/githubimages/1.PNG") 
-img_dash_2 = Image.open("C:/Users/27823/MASINSIGHT/masapp/githubimages/Capture3.PNG")
+img_dash_1 =Image.open("githubimages/1.PNG") 
+img_dash_2 = Image.open("githubimages/Capture3.PNG")
 
 if selected == "Home":
   
