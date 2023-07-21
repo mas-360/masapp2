@@ -119,7 +119,7 @@ elif selected == "Data Apps":
             st.write("##")
             image_column, text_column = st.columns((1,2))
             with image_column:
-                st.image(img_dash_1, width=500)
+                st.image(img_dash_1, width=400)
             with text_column:
                 st.subheader("Customer Experience Dashboard")
                 st.write(
@@ -137,7 +137,7 @@ elif selected == "Data Apps":
             st.write("##")
             image_column, text_column = st.columns((1,2))
             with image_column:
-                st.image(img_dash_2, width=500)
+                st.image(img_dash_2, width=400)
             with text_column:
                 st.subheader("Real Estate Dashboard")
                 st.write(
