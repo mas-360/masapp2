@@ -23,7 +23,7 @@ video_file1 = open("Screen Recording 2023-07-21 at 14.05.44.mp4", "rb")
 video_bytes1 = video_file1.read()
 video_file2 = open("Screen Recording 2023-08-23 at 11.26.41.mp4", "rb")
 video_bytes2 = video_file2.read()
-local_css("C:/Users/27823/MASINSIGHT/masapp/style/style.CSS") 
+
 
 #--- ABOUT ---
 st.write("---")
