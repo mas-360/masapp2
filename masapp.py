@@ -8,7 +8,7 @@ from PIL import Image
 import streamlit as st
 
 
-st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="centered")
+st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="wide")
 
 img_logo = Image.open("images/masinsightnew.png")
 
