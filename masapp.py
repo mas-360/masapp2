@@ -31,10 +31,10 @@ def loop_video(video_url):
     st.write(f'<video src="{video_url}" controls loop autoplay></video>', unsafe_allow_html=True)
     
 
-video_url1 = video_bytes1
-video_url2 = video_bytes2 
-loop_video(video_url1)
-loop_video(video_url2)
+video_url = video_bytes1
+
+loop_video(video_url)
+
 
 
 #--- ABOUT ---
