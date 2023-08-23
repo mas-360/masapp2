@@ -11,6 +11,7 @@ import streamlit as st
 st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="centered")
 
 img_logo = Image.open("images/masinsightnew.png")
+st.image(img_logo)
 
 #---LOAD ASSETS---
 
@@ -70,8 +71,8 @@ with st.container():
 st.write("---") 
 st.header("Upcoming Dashboards:")
 st.markdown("""
-            <span style="color:#000000;font-size:12pt"> ◽ Product Interest Prediction: Analyze which customers are likely to purchase a product from your marketing mail list (<b> bottom </b>)
-            <span style="color:#000000;font-size:12pt"> ◽ Influencer Impact: Analyze the impact of influencer marketing on sales using sales and impressions data (<b> bottom </b>)
+             ◽ Product Interest Prediction: Analyze which customers are likely to purchase a product from your marketing mail list (<b> bottom </b>)
+             ◽ Influencer Impact: Analyze the impact of influencer marketing on sales using sales and impressions data (<b> bottom </b>)
 
             """)
 #Use local CSS
