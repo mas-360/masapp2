@@ -28,11 +28,10 @@ video_bytes2 = video_file2.read()
 
 
 #--- ABOUT ---
-st.write("---")
-st.header("Using Econometric Modelling to simplify marketing business problems")
+st.header("Generate business strategies with easy-to-use dashboards")
 st.write(
     """
-    Generate business strategies with easy-to-use dashboards
+    Using Econometric Modelling to simplify marketing business problems
     
     """)
 
