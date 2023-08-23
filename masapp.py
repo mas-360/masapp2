@@ -11,11 +11,13 @@ import streamlit as st
 st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="wide")
 
 img_logo = Image.open("images/masinsightnew.png")
-# Specify the width and height values
-image_width = 300  # in pixels
-image_height = 200  # in pixels
 st.image(img_logo)
-st.markdown(f'<img src="{img_logo}" width="{image_width}" height="{image_height}">', unsafe_allow_html=True)
+with st.container():
+    image_col, txt_col = st.columns(0.2,0.5)
+    with image_col:
+        st.image(img_logo)
+    with txt_col:
+        pass
 
 #---LOAD ASSETS---
 
