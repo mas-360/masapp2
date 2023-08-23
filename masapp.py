@@ -10,7 +10,7 @@ import streamlit as st
 
 st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="centered")
 
-img_logo = Image.open("masinsightnew.png")
+img_logo = Image.open("images/masinsightnew.png")
 
 with st.container():
     image_col, txt_col = st.columns((0.3,1))
