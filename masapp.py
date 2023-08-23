@@ -47,7 +47,7 @@ with st.container():
     st.write("##")
     video_column, text_column = st.columns((1,2))
     with video_column:
-        st.video(video_bytes1, width=500)
+        st.video(video_bytes1)
     with text_column:
         st.subheader("Real Estate Dashboard")
         st.write(
@@ -63,7 +63,7 @@ with st.container():
     st.write("##")
     video_column1, text_column = st.columns((1,2))
     with video_column1:
-        st.video(video_bytes2, width=500)
+        st.video(video_bytes2)
     with text_column:
         st.subheader("Sales Forecasting Dashboard")
         st.write(
