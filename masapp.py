@@ -9,7 +9,9 @@ import streamlit as st
 
 
 st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="centered")
-img_logo = Image.open("Screenshot 2023-08-23 at 11.31.14.png") 
+
+img_logo = Image.open("Screenshot 2023-08-23 at 11.31.14.png")
+
 with st.container():
     image_col, txt_col = st.columns((0.3,1))
     with image_col:
@@ -19,9 +21,9 @@ with st.container():
 
 #---LOAD ASSETS---
 
-video_file1 = open("Screen Recording 2023-07-21 at 14.05.44.mp4", "rb")
+video_file1 = open("video/rentalprop.mov", "rb")
 video_bytes1 = video_file1.read()
-video_file2 = open("Screen Recording 2023-08-23 at 11.26.41.mp4", "rb")
+video_file2 = open("video/salespredict.mov", "rb")
 video_bytes2 = video_file2.read()
 
 
