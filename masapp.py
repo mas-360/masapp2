@@ -28,12 +28,32 @@ video_bytes2 = video_file2.read()
 
 
 #--- ABOUT ---
+# Center-align content using CSS
+centered_style = """
+    <style>
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh; /* Adjust the value for vertical centering */
+    }
+    </style>
+"""
+st.markdown(centered_style, unsafe_allow_html=True)
+
+# Center-aligned header and content
+st.markdown('<div class="center">', unsafe_allow_html=True)
 st.header("Generate business strategies with easy-to-use dashboards")
 st.write(
     """
     Using Econometric Modelling to simplify marketing business problems
-    
-    """)
+    """
+)
+st.markdown('</div>', unsafe_allow_html=True)
+
+#st.header("Generate business strategies with easy-to-use dashboards")
+#st.write("""Using Econometric Modelling to simplify marketing business problems""")
 
 st.write("---")
 
