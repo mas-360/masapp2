@@ -8,7 +8,7 @@ from PIL import Image
 import streamlit as st
 
 
-st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="centered")
+st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="wide")
 
 img_logo = Image.open("images/masinsightnew.png")
 st.image(img_logo)
@@ -71,8 +71,8 @@ with st.container():
 st.write("---") 
 st.header("Upcoming Dashboards:")
 st.markdown("""
-             ◽ Product Interest Prediction: Analyze which customers are likely to purchase a product from your marketing mail list (<b> bottom </b>)
-             ◽ Influencer Impact: Analyze the impact of influencer marketing on sales using sales and impressions data (<b> bottom </b>)
+             ◽ Product Interest Prediction: Analyze which customers are likely to purchase a product from your marketing mail list   
+             ◽ Influencer Impact: Analyze the impact of influencer marketing on sales using sales and impressions data   
 
             """)
 #Use local CSS
