@@ -13,7 +13,7 @@ st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layo
 img_logo = Image.open("images/masinsightnew.png")
 st.image(img_logo)
 with st.container():
-    image_col, txt_col = st.columns((0.5))
+    image_col, txt_col = st.columns((0.5,1))
     with image_col:
         st.image(img_logo)
     with txt_col:
