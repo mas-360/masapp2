@@ -12,13 +12,6 @@ st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layo
 
 img_logo = Image.open("images/masinsightnew.png")
 
-with st.container():
-    image_col, txt_col = st.columns((0.3,1))
-    with image_col:
-        st.image(img_logo)
-    with txt_col:
-        pass
-
 #---LOAD ASSETS---
 
 video_file1 = open("video/rentalprop.mov", "rb")
@@ -42,7 +35,6 @@ st.header("What do you want to analyze?")
 st.write("##")
                   
 with st.container():
-    st.write("---")
     #st.header("Are you a visual thinker?")
     st.write("##")
     video_column, text_column = st.columns((1,2))
