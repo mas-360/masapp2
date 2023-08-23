@@ -33,8 +33,8 @@ def loop_video(video_url):
 
 video_url = video_bytes1
 video_url = video_bytes2 
-loop_video(video_loop1)
-loop_video(video_loop2)
+loop_video(video_url)
+loop_video(video_url)
 
 
 #--- ABOUT ---
