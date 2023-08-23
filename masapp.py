@@ -15,7 +15,7 @@ img_logo = Image.open("images/masinsightnew.png")
 image_width = 300  # in pixels
 image_height = 200  # in pixels
 st.image(img_logo)
-st.markdown(f'<img src="{image}" width="{image_width}" height="{image_height}">', unsafe_allow_html=True)
+st.markdown(f'<img src="{img_logo}" width="{image_width}" height="{image_height}">', unsafe_allow_html=True)
 
 #---LOAD ASSETS---
 
