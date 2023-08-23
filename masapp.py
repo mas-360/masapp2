@@ -26,6 +26,16 @@ video_bytes1 = video_file1.read()
 video_file2 = open("video/salespredict.mov", "rb")
 video_bytes2 = video_file2.read()
 
+def loop_video(video_url):
+    # Use the st.html component to embed the video with loop attribute
+    st.write(f'<video src="{video_url}" controls loop autoplay></video>', unsafe_allow_html=True)
+    
+
+video_url = video_bytes1
+video_url = video_bytes2 
+loop_video(video_loop1)
+loop_video(video_loop2)
+
 
 #--- ABOUT ---
 st.header("Generate business strategies with easy-to-use dashboards")
