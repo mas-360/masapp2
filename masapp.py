@@ -84,7 +84,8 @@ st.write("---")
 st.header("Upcoming Dashboards:")
 st.markdown("""
              **Product Interest Prediction:** Analyze which customers are likely to purchase a product from your marketing mail list   
-             **Influencer Impact:** Analyze the impact of influencer marketing on sales using sales and impressions data   
+             **Influencer Impact:** Analyze the impact of influencer marketing on sales using sales and impressions data
+             **Money Flow Chart:** Intuitively analyze and understand the flow of your financial data
 
             """)
 #Use local CSS
