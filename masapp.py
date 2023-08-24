@@ -7,6 +7,8 @@ Created on Wed Feb  8 17:35:34 2023
 from PIL import Image
 import streamlit as st
 
+st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="wide")
+
 st.markdown(
     """
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-58VK00NVWG"></script>
@@ -19,9 +21,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-
-st.set_page_config(page_title="masinsight", page_icon="images/Capture.PNG", layout="wide")
 
 img_logo = Image.open("images/masinsightnew.png")
 
